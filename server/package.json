@@ -2,10 +2,8 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "src/app.js",
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -13,11 +11,9 @@
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "express": "^4.16.4",
-    "morgan": "^1.9.1",
-    "nodemon": "^1.18.4"
+    "morgan": "^1.9.1"
   },
   "devDependencies": {
-    "eslint": "^5.7.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^7.0.1",
